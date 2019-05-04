@@ -3,3 +3,11 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+
+function finalFunction(myNum) {
+  let myArray = [];
+  for (let i = 0; i < myNum; i++) {
+    myArray.push("Hello");
+  }
+  return myArray;
+}
